@@ -1,11 +1,13 @@
 {
   "name": "react-shop",
   "version": "1.0.0",
-  "description": "",
+  "description": "React Shop",
+  "homepage": "https://github.com/EdgardoAVS/react-shop",
   "main": "src/index.js",
   "scripts": {
     "start": "webpack serve --open",
     "build": "webpack --mode production",
+    "deploy": "gh-pages -b main -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Edgardo Vargas <edgardoovargass@gmail.com>",
@@ -28,6 +30,7 @@
   },
   "devDependencies": {
     "css-loader": "^6.7.1",
+    "gh-pages": "^4.0.0",
     "mini-css-extract-plugin": "^2.6.1",
     "sass": "^1.54.4",
     "sass-loader": "^13.0.2",
